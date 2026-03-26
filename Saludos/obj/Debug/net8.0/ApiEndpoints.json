@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Saludos.Controllers.SaludosController",
+    "Method": "Get",
+    "RelativePath": "api/Saludos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Saludos.Controllers.SaludosController",
+    "Method": "Post",
+    "RelativePath": "api/Saludos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saludo",
+        "Type": "Saludos.DTOs.SaludoDTOIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Saludos.DTOs.IdDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Saludos.Controllers.SaludosController",
+    "Method": "Delete",
+    "RelativePath": "api/Saludos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Saludos.Controllers.SaludosController",
+    "Method": "Get",
+    "RelativePath": "api/Saludos/{saludo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saludo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

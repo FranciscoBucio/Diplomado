@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Saludos</name>
+    </assembly>
+    <members>
+        <member name="M:Saludos.Controllers.SaludosController.Post(Saludos.DTOs.SaludoDTOIn)">
+            <summary>
+            Hola mundo
+            </summary>
+            <returns></returns>
+            <response code="200">IdDto</response>
+        </member>
+        <member name="M:Saludos.Controllers.SaludosController.Delete">
+            <summary>
+            Regresa un error 500 Internal Server Error con un ProblemDetails personalizado
+            </summary>
+            <returns></returns>
+            <response code="500"></response>
+        </member>
+    </members>
+</doc>

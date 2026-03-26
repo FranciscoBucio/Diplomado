@@ -1,0 +1,6 @@
+@Saludos_HostAddress = http://localhost:5298
+
+GET {{Saludos_HostAddress}}/api/Saludos/
+Accept: application/json
+
+###

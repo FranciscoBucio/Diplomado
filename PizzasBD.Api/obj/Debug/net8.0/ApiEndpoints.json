@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerAdicionales",
+    "RelativePath": "api/Pizza/adicionales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.ProductoDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerBebidas",
+    "RelativePath": "api/Pizza/bebidas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.ProductoDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerMenus",
+    "RelativePath": "api/Pizza/menus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.MenuDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerPizzas",
+    "RelativePath": "api/Pizza/pizzas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.ProductoDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerMasas",
+    "RelativePath": "api/Pizza/pizzas/masas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.MasaDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerTamanios",
+    "RelativePath": "api/Pizza/pizzas/tamanios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.TamanioDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PizzasBD.Api.Controllers.PizzaController",
+    "Method": "ObtenerPollos",
+    "RelativePath": "api/Pizza/pollos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Pizzas.Api.DTOs.ProductoDTO, PizzasBD.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

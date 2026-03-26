@@ -1,0 +1,271 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Pizzas API",
+    "description": "Tarea de la semana 1",
+    "contact": {
+      "name": "Francisco Bucio",
+      "email": "fbucio.castillo@gmail.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Pizza/menus": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de menús disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de menús",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MenuDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/pizzas": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de pizzas disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de pizzas",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/pizzas/masas": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de masas disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de masas",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MasaDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/pizzas/tamanios": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de tamaños disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de tamaños",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TamanioDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/pollos": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de productos de pollo disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de productos de pollo",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/adicionales": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de adicionales disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de adicionales",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pizza/bebidas": {
+      "get": {
+        "tags": [
+          "Pizza"
+        ],
+        "summary": "Obtener lista de bebidas disponibles",
+        "responses": {
+          "200": {
+            "description": "Regresa la lista de bebidas",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductoDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MasaDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MenuDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtitulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ruta": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "ingredientes": {
+            "type": "string",
+            "nullable": true
+          },
+          "ruta": {
+            "type": "string",
+            "nullable": true
+          },
+          "menu": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TamanioDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

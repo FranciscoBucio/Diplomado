@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Productos.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Productos.Api.Controllers.ProductosController.Get">
+            <summary>
+            Obtener lista de productos disponibles
+            </summary>
+            <returns></returns>
+            <response code="200">Regresa la lista de productos</response>
+        </member>
+        <member name="T:Productos.Api.Migrations.Inicio">
+            <inheritdoc />
+        </member>
+        <member name="M:Productos.Api.Migrations.Inicio.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Productos.Api.Migrations.Inicio.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Productos.Api.Migrations.Inicio.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

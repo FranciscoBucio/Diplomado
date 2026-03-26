@@ -1,0 +1,11 @@
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Saludos.exe
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Saludos.dll
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Saludos.deps.json
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Saludos.runtimeconfig.json
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Saludos.pdb
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\franc\OneDrive - Universidad La Salle\Diplomado\Modulo5\HolaMundoSemana1\Saludos\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

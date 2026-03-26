@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pizzas.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerMenus">
+            <summary>
+            Obtener lista de menús disponibles
+            </summary>
+            <returns>Lista de menús</returns>
+            <response code="200">Regresa la lista de menús</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerPizzas">
+            <summary>
+            Obtener lista de pizzas disponibles
+            </summary>
+            <returns>Lista de pizzas</returns>
+            <response code="200">Regresa la lista de pizzas</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerMasas">
+            <summary>
+            Obtener lista de masas disponibles
+            </summary>
+            <returns>Lista de masas</returns>
+            <response code="200">Regresa la lista de masas</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerTamanios">
+            <summary>
+            Obtener lista de tamaños disponibles
+            </summary>
+            <returns>Lista de tamaños</returns>
+            <response code="200">Regresa la lista de tamaños</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerProductosPollo">
+            <summary>
+            Obtener lista de productos de pollo disponibles
+            </summary>
+            <returns>Lista de productos de pollo</returns>
+            <response code="200">Regresa la lista de productos de pollo</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerAdicionales">
+            <summary>
+            Obtener lista de adicionales disponibles
+            </summary>
+            <returns>Lista de adicionales</returns>
+            <response code="200">Regresa la lista de adicionales</response>
+        </member>
+        <member name="M:Pizzas.Api.Controllers.PizzaController.ObtenerBebidas">
+            <summary>
+            Obtener lista de bebidas disponibles
+            </summary>
+            <returns>Lista de bebidas</returns>
+            <response code="200">Regresa la lista de bebidas</response>
+        </member>
+    </members>
+</doc>
